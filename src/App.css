@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+}
+
+/* .question {
+  font-weight: 400;
+  color: hsl(237, 12%, 33%);
+} */
+
+/* .arrowDown {
+  width: 20px;
+  height: 15px;
+} */
+
+.arrowUp {
+  transform: scaleY(-1);
+}
