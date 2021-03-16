@@ -1,12 +1,14 @@
 import React, { useState } from "react";
 import { Data } from "./Data";
 import styled from "styled-components";
-import { ReactComponent as IllustrationWoman } from "./../imgs/illustration-woman-online-desktop.svg";
+import { ReactComponent as ImagePattern } from "./../imgs/bg-pattern-desktop.svg";
+import { ReactComponent as ImageWoman } from "./../imgs/illustration-woman-online-desktop.svg";
+import { ReactComponent as ImageBox } from "./../imgs/illustration-box-desktop.svg";
 import { ReactComponent as ArrowDown } from "./../imgs/icon-arrow-down.svg";
 
 const CardSection = styled.div`
   background: white;
-  height: 720px;
+  height: 650px;
   width: 1440px;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -18,9 +20,20 @@ const CardSection = styled.div`
   box-shadow: -1px 24px 40px 0px rgba(34, 60, 80, 0.13);
 `;
 
+const Container = styled.div`
+  position: relative;
+`;
+
+const ImageContainer = styled.div`
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+  width: 100%;
+`;
+
 const DataContainer = styled.div`
   grid-area: data;
-  align-self: center;
+  padding-top: 4rem;
   h1 {
     color: hsl(238, 29%, 16%);
     font-weight: 700;
@@ -70,8 +83,15 @@ const Card = () => {
   };
 
   return (
-    <CardSection>
-      <IllustrationWoman />
+    <CardSection className="cardContainer">
+      <Container>
+        <ImageBox className="imageBox" />
+        <ImageContainer>
+          <ImagePattern className="imagePattern" />
+          <ImageWoman className="imageWoman" />
+        </ImageContainer>
+      </Container>
+
       <DataContainer>
         <h1>FAQ</h1>
         {Data.map((item, index) => {
