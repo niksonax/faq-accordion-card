@@ -12,15 +12,10 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 - Hide/Show the answer to a question when the question is clicked
 
-### Screenshot
+### Screenshots
 
-![](./screenshot.jpg)
-
-
-### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+<img src='https://i.imgur.com/klSMTLC.png'>
+<img src='https://i.imgur.com/HF7TTdw.png'>
 
 ## My process
 
