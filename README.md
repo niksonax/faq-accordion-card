@@ -38,6 +38,6 @@ Mobile version of site is still in the development.
 
 ## Author
 
-- Telegram - [Nikita](https://t.me/h0kagee) & [Bohdan](https://t.me/bbgdnchk)
+- Telegram - [Nikita](https://t.me/h0kagee)
 
 
