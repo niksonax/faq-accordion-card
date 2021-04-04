@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+
+.arrowUp {
+  transform: scaleY(-1);
+}
+
+.imagePattern {
+  position: absolute;
+ left: -40%;
+
+}
+
+.imageWoman {
+  position: absolute;
+  overflow: hidden;
+  top: 22%;
+  left: -10%;
+  z-index: 1;
+}
+
+.imageBox{
+  position: absolute;
+  overflow: visible;
+  left: -14%;
+  top: 44%;
+  z-index: 2;
+  transition: top ease 0.5s;
+}
+.imageBox:hover{
+  top: 40%;
+}
